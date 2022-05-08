@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #af8c9d;
+  background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%);
+}
+
+nav {
+  background-color: #585858;
+}
+
+.carrusel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: solid black 1px;
+  margin-bottom: 150px;
+}
+
+.cardd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 130px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  opacity: 0.5;
+  border: solid grey 1px;
+}
+
+.cardd:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#ajusteimagen {
+  height: 127px;
+}
+
+#headertrabajos {
+  background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center/cover no-repeat;
+}
+
+.containercontac {
+  margin-top: 10px;
+}
+
+.card-img-top {
+  border-color: aliceblue;
+}
+
+.card-text {
+  color: #005aad;
+}
+
+.mainnos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#gallery {
+  margin-top: 30px;
+}
+/*# sourceMappingURL=estilo.css.map */

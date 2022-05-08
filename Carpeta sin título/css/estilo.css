@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #af8c9d;
+  background-image: linear-gradient(315deg, #af8c9d 0%, #8cacac 74%); }
+
+#headernav {
+  background-color: grey; }
+
+#carouselExampleCaptions {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  width: 700px;
+  border-style: solid 2px; }
+
+#footer {
+  margin-top: 50px; }
